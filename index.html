@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,500;0,700;1,100&display=swap"
+        rel="stylesheet">
+    <title>CV</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+        <div class="toggle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/foto.png" alt="Foto" class="section-profile-foto">
+                <div class="section-profile-title">
+                    <h1 class="main-title">Sergey Abramov</h1>
+                    <h3 class="section-subtitle">Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">
+                        Krivoy Rog, Ukraine
+                    </li>
+                    <li class="section-item contacts-item">
+                        Email: <a href="mailto:marba@ukr.net" title="email">marba@ukr.net</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Github: <a href="https://github.com/marba-serg" title="github">marba-serg</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Phone: <a href="tel: +380 96 807-72-39" title="github">+380 96 807 72 39</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                    At the moment I work as “Leading Engineer of the Process Control System” at Arcelor Mittal Kryvyi
+                    Rih, Department of Automation of Technological Processes. I hold this position for a long time.<br>
+                    My responsibilities include maintenance of
+                    instrumentation sensors and blast furnace No. 9 operation control system. Equipment manufactured by
+                    Allen-Bradley,
+                    Rockwell Automation (APCS) is used. LAD, STL, FBD programming languages are applied. Periodically,
+                    there is also a need
+                    to change the logic of the mechanisms, to use SQL and С#.<br>
+
+                    I am fond of Web development. And I want to develop my skills in this direction. I learn HTML, CSS,
+                    JS by myself. I am
+                    familiar with technologies SQL, GULP, SASS, Bootstrap, GIT, SVG, Figma.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        Web-development:<span> HTML5, CSS3, JavaScript</span>
+                    </li>
+                    <li class="section-item">
+                        Data base:<span> SQL</span>
+                    </li>
+                    <li class="section-item">
+                        Version control:<span> GIT, Github</span>
+                    </li>
+                    <li class="section-item">
+                        Graphics:<span> Figma, Adobe Photoshop</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+                <code>
+function gedArrOfDiv(num) {
+let result = [];
+for (let i = 1; i &lt;= num; i++)
+{ if (num % i==0)
+{ result.push(i) }
+} return result;
+}
+
+
+                </code>
+            </pre>
+            </section>
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>National Technical University (Computer control systems of technological processes) 1998-2003</p>
+            </section>
+            <section class="section section-english" id="english">
+                <h2 class="section-title">English</h2>
+                <p>A2 -Pre-Intermediate (B1 in process…)</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+
+        <div class="container footer-container">
+            <div>© 2022 <a href="https://github.com/marba-seg" class="github nav-link">marba-serg</a></div>
+            <a href="https://rs.school/js/" class="rsschool"></a>
+
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
