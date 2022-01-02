@@ -1,7 +1,7 @@
 //*=======PRINT-TEXT======*//
 
 let titleColor = document.querySelector('.section-subtitle');
-let text = 'Junior Front-End Developer';
+let text = 'Front-End Developer';
 let x = 1;
 textPrint();
 

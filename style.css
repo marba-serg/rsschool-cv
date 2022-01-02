@@ -58,7 +58,9 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #829985;
+  color: #672f2f;
+  border-left: 20px solid #4d2323;
+  padding-left: 10px;
 }
 
 .section-profile {
@@ -107,7 +109,7 @@ body {
   margin-left: -70px;
   width: 140px;
   height: 2px;
-  background-color: #829985;
+  background-color: #672f2f;
 }
 
 .section-subtitle {
@@ -162,17 +164,17 @@ body {
 }
 
 .section-item span {
-  color: #829985;
+  color: #672f2f;
 }
 
 .section-item a {
   text-decoration: none;
-  color: #829985;
+  color: #672f2f;
   transition: color 0.5s;
 }
 
 .section-item a:hover {
-  color: #4d2323;
+  color: brown;
 }
 
 .contacts-item:before {
@@ -186,36 +188,12 @@ body {
   background-repeat: no-repeat;
 }
 
-.contacts-item:nth-child(1):before {
-  background-image: url("assets/svg/1.svg");
-}
-
-.contacts-item:nth-child(2):before {
-  top: 3px;
+.contacts-item:before {
+  background-image: url("assets/svg/item.svg");
+  top: 0;
   left: 0px;
-  width: 21px;
-  height: 21px;
-  background-image: url("assets/svg/2.svg");
-}
-
-.contacts-item:nth-child(3):before {
-  top: 4px;
-  left: 0px;
-  width: 19px;
-  height: 19px;
-  background-image: url("assets/svg/3.svg");
-}
-
-.contacts-item:nth-child(4):before {
-  top: 3px;
-  left: 0px;
-  width: 21px;
-  height: 21px;
-  background-image: url("assets/svg/4.svg");
-}
-
-.contacts-item:nth-child(5):before {
-  background-image: url("assets/svg/5.svg");
+  width: 16px;
+  height: 16px;
 }
 
 .section-education,
@@ -226,7 +204,7 @@ body {
 /*===============FOOTER======================*/
 
 .footer {
-  background-color: rgb(17, 100, 224);
+  background-color: brown;
   padding: 20px;
 }
 
